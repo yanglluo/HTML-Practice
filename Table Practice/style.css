@@ -1,0 +1,16 @@
+#first {
+  color: #7fffd4;
+}
+#second {
+  color: #5f9ea0;
+}
+#title {
+  text-align: center;
+  font-size: 30px;
+}
+#box {
+  background-color: #d2691e;
+}
+#otherBox {
+  background-color: #5f9ea0;
+}

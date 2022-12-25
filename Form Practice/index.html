@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Forms</h2>
+
+    <p>Fill out the following form:</p>
+
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="" /><br /><br />
+      <label for="email">Enter your email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <input type="submit" value="Submit" />
+      <p>Choose one of the options:</p>
+      <label for="optionOne">Option One</label>
+      <input
+        type="radio"
+        id="optionOne"
+        name="optionOne"
+        value="optionO"
+      /><br /><br />
+      <label for="optionTwo">Option Two</label>
+      <input
+        type="radio"
+        id="optionTwo"
+        name="optionTwo"
+        value="optionTwo"
+      /><br /><br />
+      <label for="optionThree">Option Three</label>
+      <input
+        type="radio"
+        id="optionThree"
+        name="optionThree"
+        value="optionThree"
+      />
+      <p>How many options were there?</p>
+      <label for="oneOption">One Option</label>
+      <input type="checkbox" /><br />
+      <label for="twoOptions">Two Options</label>
+      <input type="checkbox" /><br />
+      <label for="oneOptions">Three Options</label>
+      <input type="checkbox" /><br /><br />
+      <label for="button">Random Button</label>
+      <input type="button" /> <br /><br />
+
+      <label for="quantity">Pick a number between 1 and 10:</label>
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="1"
+        max="10"
+      /><br /><br />
+
+      <label for="appt">Select your current time:</label>
+      <input type="time" id="appt" name="appt" />
+    </form>
+
+    <form><input type="submit" /></form>
+  </body>
+</html>

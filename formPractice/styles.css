@@ -1,1 +1,9 @@
+.forms {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.form {
+  font-size: 80px;
+}
